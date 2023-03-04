@@ -1,4 +1,4 @@
-package com.lyyang.test.testgrpc.interceptor;
+package com.lyyang.test.testgrpc.grpc.stub.interceptor;
 
 import net.devh.boot.grpc.client.interceptor.GrpcGlobalClientInterceptor;
 import org.springframework.context.annotation.Configuration;

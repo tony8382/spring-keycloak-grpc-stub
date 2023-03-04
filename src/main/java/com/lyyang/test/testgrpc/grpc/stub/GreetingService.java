@@ -1,8 +1,7 @@
-package com.lyyang.test.testgrpc.stub;
+package com.lyyang.test.testgrpc.grpc.stub;
 
-import com.lyyang.test.testgrpc.model.GreeterGrpc;
-import com.lyyang.test.testgrpc.model.GreeterProto;
-import com.lyyang.test.testgrpc.model.Hello;
+import com.lyyang.test.testgrpc.grpc.stub.model.GreeterGrpc;
+import com.lyyang.test.testgrpc.grpc.stub.model.GreeterProto;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.stereotype.Service;
 

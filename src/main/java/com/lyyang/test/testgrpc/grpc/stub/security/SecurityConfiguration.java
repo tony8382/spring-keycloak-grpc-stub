@@ -1,4 +1,4 @@
-package com.lyyang.test.testgrpc.security;
+package com.lyyang.test.testgrpc.grpc.stub.security;
 
 
 import lombok.extern.slf4j.Slf4j;

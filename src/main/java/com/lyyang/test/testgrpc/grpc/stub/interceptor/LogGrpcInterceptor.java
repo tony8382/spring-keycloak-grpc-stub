@@ -1,4 +1,4 @@
-package com.lyyang.test.testgrpc.interceptor;
+package com.lyyang.test.testgrpc.grpc.stub.interceptor;
 
 
 import io.grpc.*;

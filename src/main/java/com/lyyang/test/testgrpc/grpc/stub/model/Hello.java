@@ -1,4 +1,4 @@
-package com.lyyang.test.testgrpc.model;
+package com.lyyang.test.testgrpc.grpc.stub.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

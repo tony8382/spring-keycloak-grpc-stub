@@ -1,7 +1,6 @@
 package com.lyyang.test.testgrpc.rest;
 
-import com.lyyang.test.testgrpc.model.Hello;
-import com.lyyang.test.testgrpc.stub.GreetingService;
+import com.lyyang.test.testgrpc.grpc.stub.GreetingService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
