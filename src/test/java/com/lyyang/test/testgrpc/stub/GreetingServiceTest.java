@@ -18,19 +18,14 @@ class GreetingServiceTest extends TestGrpcApplicationTests {
         try {
             log.info("R:{}", greetingService.sayHello("GG"));
         } catch (Exception e) {
-            log.warn("EX:{}", e);
+            log.warn("EX", e);
         }
 
         try {
             log.info("R:{}", greetingService.sayHelloAdmin("GGTT"));
         } catch (Exception e) {
-            log.warn("EX:{}", e);
+            log.warn("EX", e);
         }
 
-    }
-
-    @Test
-    void auth() {
-        log.info("GGG:{}", greetingService.auth("user", "123456"));
     }
 }
