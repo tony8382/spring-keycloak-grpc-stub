@@ -1,0 +1,8 @@
+auth.token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTY3NzU4MzYwNiwiZXhwIjoxNjgzNTgzNjA2fQ.GJmtsNIexmoUGAvQYEh0ZHLPz0pmKJlzYo7wXR_eM48
+grpc:
+  client:
+    local-grpc-server:
+      address: 'static://127.0.0.1:9190'
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext
